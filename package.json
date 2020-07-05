@@ -1,0 +1,19 @@
+{
+  "name": "words",
+  "version": "0.0.1",
+  "description": "",
+  "main": "engwords.json",
+  "scripts": {
+    "start": "npm run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "bootstrap": "^4.5.0",
+    "browserify-fs": "^1.0.0",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "uniq": "^1.0.1"
+  }
+}

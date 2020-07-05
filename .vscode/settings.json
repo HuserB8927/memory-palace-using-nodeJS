@@ -1,0 +1,6 @@
+{
+  "liveServer.settings.ignoreFiles" : [ //így már nem fogja újratölteni az egész oldalt a böngésző csak azért mert az engwords.json file módosult
+  "node_modules/**",
+    "database/**"
+]
+}

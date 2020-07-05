@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test your memory</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome-free-5.13.1-web/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="words-to-memorize"> Number of Words</label>
+                    <input id="words-to-memorize" name="wordsInput" type="text" class="form-control">
+                </div>
+                <div id="wordsInput" class="button btn btn-block btn-info">
+                    START
+                </div>
+                <div id="check-button" class="button btn btn-block btn-secondary">
+                    CHECK
+                </div>
+                <div id="server-button" class="button btn btn-block btn-warning">
+                    Get All 3000 Words Button
+                </div>
+            </div>
+            <div class="col-4">
+                <h4>Remained:</h4>
+
+                <div id="clockdiv">
+                    <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Min</div>
+                    </div>
+                    <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Sec</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <div>
+            <br/>
+            <output id="generatedArrayELements">Your Words Will Appear Here:</output>
+            <br/>
+        </div>
+    </br>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+        <table id="wordTable" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Total Words Table</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+        <div class="col-4"></div>
+    </div>
+</div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
